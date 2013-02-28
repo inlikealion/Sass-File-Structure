@@ -1,11 +1,14 @@
 @import "_intro";
 @import "_normalize";
-@import "_vars"; // Scss Variables, Mixins, etc...
+@import "_vars";        // Scss Variables, Mixins, etc...
 @import "_root";
-// @import "_typography";
-@import "_base";
-@import "_layout";
-@import "_modules";
-// Specific Pages here:
+@import "_typography";
+@import "_base";        // (Opinionated defaults)
+@import "_objects";     // (Re-usable patterns: nav flyouts, pagination, etc)
+@import "_components";  // (Global pieces of site: header content, etc)
+@import "_layout";      // (Layout structure)
+@import "_modules";     // (Content modules)
+// Specific page overrides here:
+// @import "_mypage";
 @import "_utility";
 @import "_print";
