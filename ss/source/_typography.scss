@@ -1,36 +1,45 @@
 /* ==========================================================================
-   `TYPOGRAPHY
+   `TYPOGRAPHY (Base)
    ========================================================================== */
 
 body {
-  color: #000;
-  /*font: ;*/
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    /*font: ;*/
 }
+
 h1, 
 h2, 
 h3, 
 h4, 
 h5, 
 h6 {
-  /* shared typographic styles */
+    /* shared typographic styles */
 }
+
 h1 { 
-  font-size: ;
+    /*font-size: ;*/
 }
+
 h2 { 
-  font-size: ;
+    /*font-size: ;*/
 }
+
 h3 { 
-  font-size: ;
+    /*font-size: ;*/
 }
+
 h4 { 
-  font-size: ;
+    /*font-size: ;*/
 }
+
 h5 { 
-  font-size: ;
+    /*font-size: ;*/
 }
+
 h6 { 
-  font-size: ;
+    /*font-size: ;*/
 }
 
 p, 
@@ -38,18 +47,20 @@ ol,
 ul, 
 dl, 
 address { 
-  
+
 }
+
 ul, 
 ol { 
-  
+
 }
+
 ul {}
 ol {}
 li ul, 
 li ol { 
-  font-size: ;
-  margin: ;
+    /*font-size: ;*/
+    /*margin: ;*/
 }
 
 dl, 
@@ -65,31 +76,33 @@ em {}
 
 sup, 
 sub { 
-  font-size: 75%; 
-  line-height: 0;
-  position: relative;
+    font-size: 75%; 
+    line-height: 0;
+    position: relative;
 }
+
 sup { 
-  top: -.5em;
+    top: -.5em;
 }
+
 sub { 
-  bottom: -.25em;
+    bottom: -.25em;
 }
 
 address {}
 
 pre { 
-  white-space: pre; 
-  white-space: pre-wrap; 
-  word-wrap: break-word;
+    white-space: pre; 
+    white-space: pre-wrap; 
+    word-wrap: break-word;
 }
 
 pre, 
 code { 
-  font: .875em 'andale mono', 'lucida console', monospace; 
-  line-height: 1.5;
+    font: .875em 'andale mono', 'lucida console', monospace; 
+    line-height: 1.5;
 }
 
 small {
-  font-size: ;}
-
+    /*font-size: ;*/
+}
