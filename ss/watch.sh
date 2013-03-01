@@ -4,7 +4,7 @@
 # stylesheet to be called. Do not rename `main.scss` or alter references to it.
 
 # No minification
-sass --watch source/main.scss:compiled/main.css --style expanded
+sass --watch source/main.scss:compiled/main.css --style expanded --line-numbers
 # Minify:
 # sass --watch source/main.scss:compiled/main.min.css --style compressed
 
