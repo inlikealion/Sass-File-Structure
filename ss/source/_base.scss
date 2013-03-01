@@ -32,6 +32,15 @@ hr {
 }
 
 /*
+ * Remove padding from nav lists
+ */
+
+nav ul,
+nav ol {
+    padding-left: 0;
+}
+
+/*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
 
