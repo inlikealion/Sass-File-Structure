@@ -1,21 +1,23 @@
 // SETUP THE BASICS:
-@import "_intro";
-@import "_normalize";
-@import "_vars";        // Scss Variables, Mixins, etc...
-@import "_root";
-@import "_typography";
+@import "_intro";           // (Attribution)
+@import "_utils";           // (Scss Utilities like media-queries)
+@import "_vars";            // (Scss Variables, Theme mixins, etc...)
+@import "_normalize";       // (Like a reset)
+@import "_root";            // (Setup box-sizing & html + body behavior)
+@import "_typography";      // (Base typography)
 
 // GLOBAL PIECES:
-@import "_base";        // (Opinionated defaults)
-@import "_objects";     // (Re-usable patterns: nav flyouts, pagination, etc)
-@import "_components";  // (Global pieces of site: header content, etc)
-@import "_layout";      // (Layout structure)
+@import "_base";            // (Opinionated defaults)
+@import "_objects";         // (Re-usable patterns: nav flyouts, pagination, etc)
+@import "_components";      // (Global pieces of site: header content, etc)
+@import "_global-theme";    // (Global theming of structure: header, main & footer bg's, etc)
+@import "_layout";          // (Layout structure)
 
 // CONTENT:
-@import "_modules";     // (Content modules)
-// Specific page overrides here:
+@import "_modules";         // (Content modules)
+// Page specific styles:
 // @import "_mypage";
 
 // END WITH UTILITY HELPERS:
-@import "_utility";
+@import "_helpers";
 @import "_print";
