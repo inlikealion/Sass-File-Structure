@@ -1,0 +1,37 @@
+/* ==========================================================================
+   `ROOT
+   ========================================================================== */
+
+/*
+    Add support for IE10+ Snap Mode & future spec.
+    See http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
+ */
+
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+/* Setup sensible box-sizing: */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 
+    Support polyfill for border-box for IE7:
+    The URL to the HTC file must be relative to your HTML(!) document, 
+    not relative to your CSS. Absolute paths are advisable.
+    Please make sure to check your server configuration and update it to use the correct content-type if needed. 
+    You can do this in a .htaccess file:
+    AddType text/x-component .htc
+*/
+
+/*.lt-ie8 {
+    *behavior: url(/assets/boxsizing.htc);
+}*/
+
+html {}
+body {}
+

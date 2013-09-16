@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# No minification:
+# sass --watch source:compiled --style nested --line-numbers  # For Sass < 3.3
+sass --watch --sourcemap source:compiled --style nested  # Requires Sass > 3.2
+
+# Minify:
+# sass --watch source:compiled --style compressed
+
+exit 0
